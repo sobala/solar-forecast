@@ -17,8 +17,8 @@ Solar power plant in India, 34 days (May-June 2020), 22 inverters, 15-minute res
 
 | Model | Test RMSE (kW) | Eval RMSE (kW) | Train/Test Ratio |
 |---|---|---|---|
-| XGBoost (tuned, 15 features) | 114.86 | 133.80 | 1.11 |
-| Ridge (default, 41 features) | 103.77 | 134.02 | 0.92 |
+| XGBoost (tuned, 15 features) | 114.10 | 134.51 | 1.04 |
+| Ridge (tuned, 41 features) | 115.81 | 147.46 | 0.97 |
 
 XGBoost recommended for production: more consistent generalisation, interpretable via SHAP, and fast inference (~0.001s).
 
