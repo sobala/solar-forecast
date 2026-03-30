@@ -10,7 +10,7 @@ Solar power plant in India, 34 days (May-June 2020), 22 inverters, 15-minute res
 
 - Aggregated 22 inverters to site-level mean output
 - Engineered 41 features: solar position (pvlib), lagged production means, rolling statistics, clear sky index
-- SHAP-driven feature pruning reduced to 15 features with no accuracy loss
+- SHAP-driven feature pruning reduced to 5 features with no accuracy loss
 - Compared XGBoost and Ridge regression with systematic hyperparameter tuning
 
 ## Results
